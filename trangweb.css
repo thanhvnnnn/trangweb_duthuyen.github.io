@@ -122,5 +122,16 @@ video {
         width: calc(100%/2 - 10px);
         margin-bottom: 30px;
     }
+.minhthanh{
+        flex-wrap: wrap;
+    }
+    .thanhemm{
+        flex-wrap: wrap;
+    }
+    .nguyenthanh{
+        flex-wrap: wrap;
+    }
+    .thanhem{
+        flex-wrap: wrap;
+    }
 }
-
