@@ -104,4 +104,23 @@ video {
     padding: 20px;
     text-align: center;
 }
+@media screen and(max-width: 768px){
+    header{
+        padding: 10px;
+    }
+    mav ul{
+        flex-wrap: wrap;
+    }
+    nav li{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .products{
+        flex-wrap: wrap;
+    }
+    .product{
+        width: calc(100%/2 - 10px);
+        margin-bottom: 30px;
+    }
+}
 
