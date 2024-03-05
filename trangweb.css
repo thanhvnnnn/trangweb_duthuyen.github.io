@@ -104,9 +104,20 @@ video {
     padding: 20px;
     text-align: center;
 }
-@media screen and(max-width: 600px){
-    body{
-        font-size:14px;
+@media screen and(min-width: 600px){
+    .main:before, .main:after{
+        content:"";
+        display:table;
+        clear:both
+    }
+    .products{
+        width:63.5%;
+        float:left;
+        margin-right:1.5%;
+    }
+    .product{
+        width:35%;
+        float:left;
     }
 }
 
