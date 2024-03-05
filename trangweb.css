@@ -104,24 +104,10 @@ video {
     padding: 20px;
     text-align: center;
 }
-@media screen and(max-width: 768px){
-    header{
-        padding: 10px;
-    }
-    .products{
-        flex-wrap: wrap;
-    }
-    .product{
-        width: calc(100%/2 - 10px);
-        margin-bottom: 30px;
-    }
-    .thanh{
-        width: calc(100%/2 - 10px);
-        margin-bottom: 30px;
-    }
-    .minhthanh{
-        width: calc(100%/2 - 10px);
-        margin-bottom: 30px;
+@media screen and(max-width: 600px){
+    body{
+        font-size:14px;
     }
 }
-  
+
+    
